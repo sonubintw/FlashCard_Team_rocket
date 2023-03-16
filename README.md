@@ -1,29 +1,82 @@
-<details>
- <summary> Project Title - ** Flashcard Generator**</summary>
+# **Capstone Project -- Flashcard Generator !!**
 
-**It has mainly three pages.**
+A flash card generator is a powerful web application that is designed to help students create, manage, and study digital flashcards for various topics. It is a tool that is created using a combination of HTML, CSS, JavaScript, React, React Router, Tailwind CSS, bootstrap, yup, react-icons, and Formik.The flash card generator application allows users to create digital flashcards for studying and memorizing information. It offers a range of features that make it easy for users to create and manage their flashcards, including the ability to add and edit cards, organize them into decks, and track their progress.
+The application is designed with a user-friendly interface that is easy to navigate, and it offers a range of customization options that allow users to tailor the look and feel of the application to their specific needs. It also offers a range of study modes that help users to test their knowledge and improve their retention of information.
 
-• **Create Flashcard Page**
+# Languages
 
-**• My Flashcard Page**
+**Website created using a combination of HTML, CSS, JavaScript, React, React Router, Tailwind CSS, bootstrap, yup, react-icons, and Formik.**
 
-**• Flashcard Detais Page**
+## _Table of Contents_
 
-> Create Flashcard Page –
+    1. Create Flashcard Page
+    2. My Flashcards Page
+    3. Flashcard Detail Page
 
-It is the project’s first page, which will be used to create a particular flashcard. It contains two forms. The first form has three fields and is used to create a group. One input field to add the group’s name, a text area field to add the description about the group, and a button to add an image to the group.
-The second form mainly has three fields. One input field is to add the Term for the card, the second input field is to add the definition of the particular card, and the third is to select the image for the particular card. Selecting the image will generate the two icons aside from the image in the same row. The trash icon to delete a particular card or row and the Edit icon to modify the particular card. It will focus on the Term input field after clicking.  
-We have a “**+Add more**” button to create more cards. With every click, it will add the same group of inputs.
-Then you can create a flashcard using the “**Create**” button.
+# User Interface !!
 
-> My Flashcard Page –
+## 1. Create Flashcard:
 
-The second page is to display all the created cards. By default, it will display the link to the home page if any cards are not created. After clicking the ‘**view cards**’, the User will be redirected to the flashcard details page.
+- First page is to Create Flashcard which contains two form one for the name & description of the flashcard and also has functionality to add Images, second form search out form Dynamic Form that was constructed utilizing FORMIK, that has individual card name ,card defination & select images button. After clicking the Create Button, the Flashcard will be get created.
+- Also has form validations utilizing Formik & Redux Toolkit is used for the Global State Management
 
-> Flashcard Details Page -
+![App Screenshot](https://media.discordapp.net/attachments/1052534424111165475/1085832502494642176/Poject_home.png)
 
-On this page, the user can see all the cards by clicking on the menu on the left side of the display and the result will be shown in the middle of the display. On the right side, the user can use the buttons i.e. **Share, Download, Print** to share the cards, and download the cards. By clicking the share button a modal popup comes up in the middle of the screen where the user can copy the link and save it in the clipboard. Users can share the card on the same modal through social media apps like **Facebook, WhatsApp** etc.
+## 2. My Flashcards Page:
 
-**Additionally, we have added the toggle button to choose the mode from light to dark or dark to light.**
+- The second page search out display all the consumer founded cards, By default the consumer can only visualize 6 cards & subsequently clicking the See All fastener all the surplus cards will open or fan out.
 
-</details>
+![App Screenshot](https://media.discordapp.net/attachments/1052534424111165475/1085832502184247406/myFlash.png)
+
+## 3. Flashcard Details Page:
+
+- After clicking on the View Cards, User divert to flashcard analyses page, place consumer can visualize all the cards at which point flashcard, by clicking on the card person or group favoring change side display the each picked card on the middle section.
+
+![App Screenshot](https://media.discordapp.net/attachments/1052534424111165475/1085832501861306388/FlashDetails.png)
+
+## Deployment
+
+Click on the link it will redirected the user to the Website
+
+```bash
+  npm run deploy
+```
+
+## _How to run in Visual Stuido code_
+
+     - Clone the Project
+       github clone
+     - Install Dependencies
+       npm i
+     - Start the Server
+        npm run start
+
+## 🛠 Summary
+
+A flash card generator is a powerful web application that is designed to help students create, manage, and study digital flashcards for various topics. It is a tool that is created using a combination of HTML, CSS, JavaScript, React, React Router, Tailwind CSS, bootstrap, yup, react-icons, and Formik.
+
+HTML and CSS are used to structure and style the web page, while JavaScript and React are used for adding interactivity and functionality to the application. React is a JavaScript library that enables the creation of reusable components and efficient rendering of dynamic content. It also offers a comprehensive set of tools and features that simplify the process of building complex user interfaces.
+
+React Router is a library that is used for managing navigation between different pages within the application. It enables users to move between pages smoothly and easily, without having to reload the entire page.
+
+Tailwind CSS is a utility-first CSS framework that offers a wide range of pre-designed UI components for easy and responsive styling. It provides a flexible and intuitive way to customize the look and feel of the application.
+
+Bootstrap is another popular CSS framework that is used for building responsive and mobile-first web applications. It provides a set of ready-to-use UI components and templates that help developers to build complex layouts and user interfaces quickly.
+
+Yup is a validation library that is used for managing and validating form data within the application. It offers a powerful set of features for handling complex validation requirements and ensuring that the data entered by users is accurate and consistent.
+
+React-icons is a library that offers a comprehensive set of icons for use in React applications. It provides a flexible and intuitive way to add icons to the application, without having to manually create or import them.
+
+Formik is a library that simplifies the management of form data within the application. It offers a set of tools and features for handling form validation, data submission, and form field management, making it easier for developers to build complex forms and manage form data efficiently.
+
+The flash card generator application allows users to create digital flashcards for studying and memorizing information. It offers a range of features that make it easy for users to create and manage their flashcards, including the ability to add and edit cards, organize them into decks, and track their progress.
+
+The application is designed with a user-friendly interface that is easy to navigate, and it offers a range of customization options that allow users to tailor the look and feel of the application to their specific needs. It also offers a range of study modes that help users to test their knowledge and improve their retention of information.
+
+In conclusion, It offers a range of features that make it easy for users to create and manage their flashcards, and it is designed with a user-friendly interface that is easy to navigate.
+
+## Team Members
+
+    1) Ajay Pratap Singh Rathod
+    2) Ashish Ingle
+    3) Suraj Chauhan (Team Leader)
