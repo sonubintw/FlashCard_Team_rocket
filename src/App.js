@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import CreateFlashCard from "./Pages/CreateFlashCard";
 import MyFlashCard from "./Pages/MyFlashCard";
 import FlashCardDetails from "./Pages/FlashCardDetails";
@@ -10,7 +10,7 @@ import Header from "./components/Header";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="w-full min-h-screen" id="bgBC">
         <Header />
         <div className="px-5 xl:px-32 container  mt-10">
@@ -25,7 +25,7 @@ function App() {
           </Routes>
         </div>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
