@@ -48,7 +48,7 @@ https://sonubintw.github.io/FlashCard_Team_rocket/
      - Clone the Project
        github clone https://github.com/sonubintw/FlashCard_Team_rocket
      - Install Dependencies
-       npm i
+       npm i install
      - Start the Server
         npm run start
 
