@@ -37,6 +37,7 @@ The application is designed with a user-friendly interface that is easy to navig
 ## Deployment
 
 Click on the link it will redirected the user to the Website
+https://sonubintw.github.io/FlashCard_Team_rocket/
 
 ```bash
   npm run deploy
@@ -45,7 +46,7 @@ Click on the link it will redirected the user to the Website
 ## _How to run in Visual Stuido code_
 
      - Clone the Project
-       github clone
+       github clone https://github.com/sonubintw/FlashCard_Team_rocket
      - Install Dependencies
        npm i
      - Start the Server
